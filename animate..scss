@@ -1,4 +1,4 @@
-
+@import "var";
 .animation {
   animation-fill-mode: both;
   animation-duration: $animationTime;
@@ -23,6 +23,11 @@
 .animation-fadeOut-top {
   animation-name: fadeOutTop;
 }
+
+.animation-fadeOut-bottom {
+  animation-name: fadeOutBottom;
+}
+
 
 @keyframes fadeInRight {
   0% {
@@ -84,5 +89,17 @@
   100% {
     opacity: 0;
     transform: translateY(-100%);
+  }
+}
+
+
+@keyframes fadeOutBottom {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100%);
   }
 }
