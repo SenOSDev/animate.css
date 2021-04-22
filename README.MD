@@ -15,7 +15,7 @@ It currently only supports basic fade in/out animations, but I work on more in t
 ```
 
 ## Usage
-Every animated element needs the <code>.animated</code> class
+Every animated element needs the <code>.animation</code> class
 
 Additional you need to set the speed of the animation:
 - Slow animations (5 seconds) need the <code>.animation-slow</code> class
