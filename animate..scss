@@ -1,7 +1,18 @@
 @import "var";
 .animation {
   animation-fill-mode: both;
-  animation-duration: $animationTime;
+}
+
+.animation-fast {
+  animation-duration: $animationTimeFast;
+}
+
+.animation-medium {
+  animation-duration: $animationTimeMedium;
+}
+
+.animation-slow {
+  animation-duration: $animationTimeSlow;
 }
 
 .animation-fadeIn-right {
@@ -28,6 +39,13 @@
   animation-name: fadeOutBottom;
 }
 
+.animation-fadeOut-left {
+  animation-name: fadeOutLeft;
+}
+
+.animation-fadeOut-right {
+  animation-name: fadeOutRight;
+}
 
 @keyframes fadeInRight {
   0% {
@@ -101,5 +119,28 @@
   100% {
     opacity: 0;
     transform: translateY(100%);
+  }
+}
+
+@keyframes fadeOutLeft {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+}
+
+
+@keyframes fadeOutRight {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(100%);
   }
 }
