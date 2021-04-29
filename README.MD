@@ -1,5 +1,5 @@
 # Animate.css
-<center>![animate css](https://user-images.githubusercontent.com/53553315/116579197-71484800-a912-11eb-8d6e-17cc50d8027d.png)</center>
+![animate css](https://user-images.githubusercontent.com/53553315/116579197-71484800-a912-11eb-8d6e-17cc50d8027d.png)
 <br>
 Animate.css is a free css animation library.
 It currently only supports basic fade in/out animations, but I work on more in the Future :)
