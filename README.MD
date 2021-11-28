@@ -13,9 +13,9 @@ It currently only supports basic fade in/out animations, but I work on more in t
 <link rel="stylesheet" type="text/css" href="path/to/animate.min.css">
 ```
 
-### Embedding from CDN
+### Embedding from GitHub
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.senos.xyz/animate.css/dist/animate.min.css">
+<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/SenOSDev/animate.css/master/animate.min.css">
 ```
 
 ## Usage
